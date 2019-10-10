@@ -45,14 +45,14 @@ public class ProxyDemo {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 
-                return "你想获取这本书吗  我是代理给你的 " + args[0];
+                return "是否需要获取这本书  我是代理商 现在给你了！ " + args[0];
             }
         });
-
 
         Log.print(TAG, bookProxyClazz.getName());
 
         Log.print(TAG,book.getBook("Java虚拟机深入理解"));
     }
+
 
 }
