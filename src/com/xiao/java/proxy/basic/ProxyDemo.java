@@ -51,6 +51,7 @@ public class ProxyDemo {
 
         Log.print(TAG, bookProxyClazz.getName());
 
+
         Log.print(TAG,book.getBook("Java虚拟机深入理解"));
     }
 
